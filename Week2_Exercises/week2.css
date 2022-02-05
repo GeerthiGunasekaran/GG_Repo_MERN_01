@@ -1,0 +1,45 @@
+.newGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 140px);
+    grid-template-rows: repeat(3, 130px);
+    justify-content: center;
+    height: 2000px;
+}
+
+/* .box {
+    color:white;
+    min-height: 100px;
+    min-width: 100px;
+} */
+
+.first {
+    background-color: cyan;
+    width: 200px;
+    height: 98px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 683px;
+    margin-top: 210px;
+    border: solid 1px black;
+}
+.second {
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.third {
+    background-color: brown;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.fourth {
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
