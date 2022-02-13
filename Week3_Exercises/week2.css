@@ -1,0 +1,89 @@
+.parent{
+    display: flex;    
+    flex-direction:row;
+    justify-content: center;
+    /*flex-wrap: wrap; */
+
+  
+}
+
+.child{
+    height: 500px;
+    /* border: 1px solid black; */
+}
+
+.child1 {
+   width: 500px;
+}
+
+.child2 {
+    display: flex;
+    flex-direction:column;
+    width: 250px;
+    padding-left: 10px;
+ }
+
+ .subHeight1 {
+     height: 250px;
+     /* border: 1px solid black;      */
+ }
+
+ .subHeight2 {
+    height: 250px;
+    /* border: 1px solid black; */
+    padding-top: 10px;
+}
+
+.subHeight3 {
+    height: 250px;
+    /* border: 1px solid black;    */
+}
+
+.subHeight4 {
+    height: 250px;
+    /* border: 1px solid black; */
+    padding-top: 10px;
+}
+
+ .child3 {
+    display: flex;
+    flex-direction:column;
+    width: 250px;
+    padding-left: 10px;
+ }
+
+ .image1 {    
+    /* object-fit: cover;
+    vertical-align: bottom; */
+    object-fit: cover;
+    /* vertical-align: bottom; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+ }
+
+ .image2 {    
+    object-fit: cover;
+    vertical-align: bottom;
+    object-fit: cover;
+    vertical-align: bottom;
+    height: 100%;
+    width: 100%;
+    position: relative;
+ }
+ 
+ .curvedLeftEdges {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+
+ .curevedRightTopEdges {
+     border-top-right-radius: 10px;  
+ }
+
+ .curevedRightBottomEdges {    
+    border-bottom-right-radius: 10px;
+}
+
+
